@@ -31,20 +31,20 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 m4 offset-m4">
-                    <form method="GET" id="form-login">
+                    <form method="POST" id="form-login">
                         <div class="card">
                             <div class="card-content">
                                 <span class="card-title">Acesso ao Sistema</span>
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <input id="login" type="text" class="validate require" required>
+                                        <input id="login" name="login" type="text" class="validate require" required>
                                         <label for="login">Login</label>
                                         <span class="helper-text" data-error="Login inválido"></span>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <input id="password" type="password" class="validate require" required>
+                                        <input id="password" name="password" type="password" class="validate require" required>
                                         <label for="password">Senha</label>
                                         <span class="helper-text" data-error="Senha inválida"></span>
                                     </div>
@@ -52,7 +52,7 @@
                             </div>
                             <div class="card-action">
                                 <a class="waves-effect waves-teal btn-flat">Cadastro</a>
-                                <button class="btn waves-effect waves-light btn-login" type="submit" name="action" id="btn-submit">Login</button>
+                                <button class="btn waves-effect waves-light btn-login" type="submit" id="btn-submit">Login</button>
                             </div>
                         </div>
                     </form>
@@ -60,10 +60,12 @@
             </div>
         </div>
         
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
         <script src="js/login.js"></script>
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        
     </body>
 </html>

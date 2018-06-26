@@ -1,7 +1,7 @@
 function login(user) {
     $.ajax({
-        method: 'GET',
-        url: `login`,
+        method: 'POST',
+        url: `./LoginServlet`,
         data: user,
     }).done(() => {
         alertMessage('Login Ok!');
@@ -16,7 +16,6 @@ function saveForm() {
     $('#form-login').submit(e => {
         user.login = $('#login').val();
         user.senha = $('#password').val();
-        console.log(user);
         e.preventDefault();
         login(user);
     });
@@ -40,7 +39,7 @@ function verifyInputRequire() {
     }
 }
 
-$(document).ready(() => {
+$(document).ready(function() {
     $('.require').on('keyup select change', () => {
         verifyInputRequire();
     });
