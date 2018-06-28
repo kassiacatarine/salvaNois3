@@ -35,10 +35,7 @@
                         <div class="card">
                             <div class="card-content">
                                 <span class="card-title">Acesso ao Sistema</span>
-<<<<<<< HEAD
-=======
                                 <div id="ajaxServletResponse"></div>
->>>>>>> (Cuidado) Merda?
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <input id="login" name="login" type="text" class="validate require" required>
