@@ -1,15 +1,6 @@
 function postPublish(publish) {
     $.ajax({
         method: 'POST',
-<<<<<<< HEAD
-        url: `SavePublish`,
-        data: publish,
-    }).done(function() {
-        alertMessage('Publicação Ok!');
-        clearForm();
-    }).fail(function() {
-        alertMessage('Erro ao salvar publicação.');
-=======
         url: `./SavePublish`,
         data: publish,
         success : function(responseText) {
@@ -23,8 +14,7 @@ function postPublish(publish) {
         //alertMessage('Publicação Ok!');
         clearForm();
     }).fail(function() {
-        //alertMessage('Erro ao salvar publicação.');
->>>>>>> (Cuidado) Merda?
+        alertMessage('Falha de comunicação com o servlet.');
     });
 }
 
