@@ -1,7 +1,14 @@
+<%-- 
+    Document   : publish-list
+    Created on : 28/06/2018, 00:06:17
+    Author     : kassia
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Publicação</title>
+        <title>Publicações</title>
         <meta charset="UTF-8">
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
