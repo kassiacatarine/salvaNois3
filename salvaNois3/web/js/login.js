@@ -3,11 +3,21 @@ function login(user) {
         method: 'POST',
         url: `./LoginServlet`,
         data: user,
+<<<<<<< HEAD
     }).done(() => {
         alertMessage('Login Ok!');
     }).fail(() => {
         alertMessage('Erro ao fazer login.');
         clearForm();
+=======
+        success : function(responseText) {
+                if(responseText == "Login/Senha Incorretos."){
+                    $('#ajaxServletResponse').text(responseText);
+                }else{
+                    window.location.href = "./publish.jsp"
+                }
+            }
+>>>>>>> (Cuidado) Merda?
     });
 }
 
