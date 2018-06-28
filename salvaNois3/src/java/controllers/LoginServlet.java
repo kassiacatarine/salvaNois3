@@ -33,6 +33,20 @@ public class LoginServlet extends HttpServlet {
         String senha = request.getParameter("senha");
         Usuario usuario = dao.login(login, senha);
         
+<<<<<<< HEAD
         
+=======
+        System.out.println("Login: " + login + " Senha: " + senha);
+        
+        if(dao.encontraUsuarioLoginEsenha(login, senha)){
+            request.getSession().setAttribute("logado", new Boolean(true));
+            request.getSession().setAttribute("usuario", usuario);
+            System.out.println("Deu certo");
+        }else{
+            response.setContentType("text/plain");
+            response.setCharacterEncoding("UTF-8");
+            response.getWriter().write("Login/Senha Incorretos.");
+        }   
+>>>>>>> (Cuidado) Merda?
     }
 }

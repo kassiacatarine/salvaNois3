@@ -72,7 +72,11 @@ public class UsuarioDAO {
         } catch (SQLException ex) {
             System.err.println("Erro ao Cadastrar: "+ ex);
         }finally{
+<<<<<<< HEAD
             ConnectionFactory.closeConnection(con, stmt);
+=======
+          //  ConnectionFactory.closeConnection(con, stmt);
+>>>>>>> (Cuidado) Merda?
         }
         return false;
     }
@@ -99,7 +103,11 @@ public class UsuarioDAO {
         }catch(SQLException ex){
             System.err.println("Erro ao fazer login: "+ ex);
         }finally{
+<<<<<<< HEAD
             ConnectionFactory.closeConnection(con, stmt, rs);
+=======
+            //ConnectionFactory.closeConnection(con, stmt, rs);
+>>>>>>> (Cuidado) Merda?
         }
         return null;
     }
@@ -127,7 +135,11 @@ public class UsuarioDAO {
             System.err.println("Erro ao pesquisar empresas: "+ ex);
             return null;
         } finally{
+<<<<<<< HEAD
             ConnectionFactory.closeConnection(con, stmt, rs);
+=======
+            //ConnectionFactory.closeConnection(con, stmt, rs);
+>>>>>>> (Cuidado) Merda?
         }
     }
     public boolean encontraUsuarioLoginEsenha(String Login,String Senha) {

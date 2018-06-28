@@ -1,6 +1,7 @@
 function postPublish(publish) {
     $.ajax({
         method: 'POST',
+<<<<<<< HEAD
         url: `SavePublish`,
         data: publish,
     }).done(function() {
@@ -8,6 +9,22 @@ function postPublish(publish) {
         clearForm();
     }).fail(function() {
         alertMessage('Erro ao salvar publicação.');
+=======
+        url: `./SavePublish`,
+        data: publish,
+        success : function(responseText) {
+                if(responseText == "Não cadastrado"){
+                    alertMessage('Erro ao salvar publicação.');
+                }else{
+                    alertMessage('Publicação Ok!');
+                }
+            }
+    }).done(function() {
+        //alertMessage('Publicação Ok!');
+        clearForm();
+    }).fail(function() {
+        //alertMessage('Erro ao salvar publicação.');
+>>>>>>> (Cuidado) Merda?
     });
 }
 

@@ -52,7 +52,11 @@
                             <li class="collection-item">
                                 <span class="title"><h5>Title</h5></span>
                                 <div class="row">
+<<<<<<< HEAD
                                     <img class="materialboxed" width="300" src="https://www.52onriflemotel.co.nz/wp-content/uploads/2014/09/placeholder-300x300.jpg">
+=======
+                                    <img class="materialboxed" width="300" src="" id="image" name="image">
+>>>>>>> (Cuidado) Merda?
                                 </div>
                                 <div class="row">
                                     <video class="responsive-video" controls>
@@ -67,7 +71,10 @@
             </div>
         </div>
         
+<<<<<<< HEAD
         
+=======
+>>>>>>> (Cuidado) Merda?
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="js/publish.js"></script>

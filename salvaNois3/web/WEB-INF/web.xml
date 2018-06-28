@@ -7,10 +7,32 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>controllers.LoginServlet</servlet-class>
     </servlet>
+<<<<<<< HEAD
+=======
+    <servlet>
+        <servlet-name>SavePublish</servlet-name>
+        <servlet-class>controllers.SavePublish</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PublishList</servlet-name>
+        <servlet-class>controllers.PublishList</servlet-class>
+    </servlet>
+>>>>>>> (Cuidado) Merda?
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
     </servlet-mapping>
+<<<<<<< HEAD
+=======
+    <servlet-mapping>
+        <servlet-name>SavePublish</servlet-name>
+        <url-pattern>/SavePublish</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PublishList</servlet-name>
+        <url-pattern>/PublishList</url-pattern>
+    </servlet-mapping>
+>>>>>>> (Cuidado) Merda?
     <session-config>
         <session-timeout>
             30

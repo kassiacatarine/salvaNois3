@@ -3,5 +3,9 @@ function alertMessage(value) {
 }
 
 $(document).ready(function() {
+<<<<<<< HEAD
 
+=======
+    $('.materialboxed').materialbox();
+>>>>>>> (Cuidado) Merda?
 });
