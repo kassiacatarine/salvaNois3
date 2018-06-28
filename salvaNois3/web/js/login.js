@@ -14,9 +14,9 @@ function login(user) {
 function saveForm() {
     let user = new Object();
     $('#form-login').submit(e => {
+        e.preventDefault();
         user.login = $('#login').val();
         user.senha = $('#password').val();
-        e.preventDefault();
         login(user);
     });
 }

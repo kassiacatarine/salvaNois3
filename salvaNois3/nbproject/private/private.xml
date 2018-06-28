@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/faculdade/web/salvaNois3/web/index.jsp</file>
-            <file>file:/D:/faculdade/web/salvaNois3/src/java/models/Usuario.java</file>
-            <file>file:/D:/faculdade/web/salvaNois3/src/java/models/UsuarioDAO.java</file>
-            <file>file:/D:/faculdade/web/salvaNois3/src/java/controllers/LoginServlet.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
