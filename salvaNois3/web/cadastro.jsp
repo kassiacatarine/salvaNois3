@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 25/06/2018, 21:06:00
+    Author     : kassia
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
