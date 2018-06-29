@@ -38,3 +38,8 @@ function listCardPublications(publications) {
         });
     }
 }
+
+$(document).ready(function() {
+    $('.materialboxed').materialbox();
+    getAllPublications();
+});

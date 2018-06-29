@@ -3,6 +3,4 @@ function alertMessage(value) {
 }
 
 $(document).ready(function() {
-    $('.materialboxed').materialbox();
-    getAllPublications();
 });
