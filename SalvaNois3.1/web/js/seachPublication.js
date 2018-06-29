@@ -33,12 +33,17 @@ function atualiza() {
     }, DURACAO_DIGITACAO);
 }
 
+function listAllSearch(publicationsSearch) {
+    listCardPublications(publicationsSearch);
+}
 
 function searchPublications(word) {
     if (word !== '') {
         return publications.filter(function(item) {
             return item.titulo.indexOf(word) !== -1;
         });
+    } else {
+        listCardPublications(publications);
     }
 }
 

@@ -22,7 +22,7 @@ function successMessage(data) {
     console.log('Publicações encontradas com sucesso --> length: ' + data.length);
     if (!data) return;
 
-    publications = data ? data : new Object();
+    publications = data ? data : [];
     atualiza();
     listCardPublications(publications);
 }
