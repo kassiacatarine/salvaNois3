@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controllers.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SavePublish</servlet-name>
+        <servlet-class>controllers.SavePublish</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PublishList</servlet-name>
+        <servlet-class>controllers.PublishList</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastroServlet</servlet-name>
+        <servlet-class>controllers.CadastroServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SavePublish</servlet-name>
+        <url-pattern>/SavePublish</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PublishList</servlet-name>
+        <url-pattern>/PublishList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastroServlet</servlet-name>
+        <url-pattern>/CadastroServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
