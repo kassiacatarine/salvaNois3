@@ -50,23 +50,8 @@
                     <div class="col s12 m8 offset-m2">
                         <ul class="collection with-header">
                             <li class="collection-header"><h4>Publicações</h4></li>
-                            <li class="collection-item grey lighten-3">
-                                <span class="title" id="title" name="title"><h5 class="blue-grey-text text-darken-4">Title</h5></span>
-                                <div class="row">
-                                    <div class="col s4">
-                                        <img  name="image" id="image" class="materialboxed" width="300" src="https://www.52onriflemotel.co.nz/wp-content/uploads/2014/09/placeholder-300x300.jpg">
-                                    </div>
-                                    <div class="col s4 offset-s2">
-                                        <video name="video" id="video" class="responsive-video" controls>
-                                            <source src="movie.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
-                                </div>
-                                <div class="grey lighten-4">
-                                    <p class="text-bold margin-bottom-2" id="comentarios" name="comentarios">Comentários</p>
-                                    <p>Texto Texto Texto</p>
-                                </div>
-                            </li>
+                            <li class="collection-item grey lighten-3"></li>
+                            <div id="collection-list"></div>
                         </ul>
                     </div>
                 </div>
